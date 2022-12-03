@@ -3,7 +3,9 @@ namespace AdventOfCode2022
     public abstract class DailyChallenge
     {
         private string Day => GetType().Name;
+
         public abstract void Solve();
+        
         protected void PrintResults(params object[] results)
         {
             Console.WriteLine($"{Day}:");
