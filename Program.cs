@@ -20,7 +20,10 @@
             //day5.Solve();
 
             Day6 day6 = new();
-            day6.Solve();
+            //day6.Solve();
+
+            Day7 day7 = new();
+            day7.Solve();
         }
     }
 }
