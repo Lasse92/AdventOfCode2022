@@ -4,7 +4,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            List<string> lines = File.ReadAllLines("Day8/input.txt").ToList();
+            List<string> lines = File.ReadAllLines("Day08/input.txt").ToList();
             int[][] matrix = lines.Select(s => s.ToArray().Select(c => (int)char.GetNumericValue(c)).ToArray()).ToArray();
 
             int visible = 0;

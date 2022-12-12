@@ -6,7 +6,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            List<string> lines = File.ReadAllLines("Day5/input.txt").ToList();
+            List<string> lines = File.ReadAllLines("Day05/input.txt").ToList();
 
             List<Stack> stacks = new();
             int index = lines.FindIndex(line => line.ElementAt(1) == '1');

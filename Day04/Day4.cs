@@ -4,7 +4,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            List<string> lines = File.ReadAllLines("Day4/input.txt").ToList();
+            List<string> lines = File.ReadAllLines("Day04/input.txt").ToList();
 
             int part1 = 0, part2 = 0;
             foreach (string line in lines)

@@ -4,7 +4,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            List<string> lines = File.ReadAllLines("Day1/input.txt").ToList();
+            List<string> lines = File.ReadAllLines("Day01/input.txt").ToList();
             List<int[]> elves = new();
             List<string> calories = new();
             for (int i = 0; i <= lines.Count; i++)

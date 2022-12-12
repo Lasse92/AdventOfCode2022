@@ -4,7 +4,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            string stream = File.ReadAllText("Day6/input.txt");
+            string stream = File.ReadAllText("Day06/input.txt");
 
             int part1 = -1, part2 = -1;
             for (int i = 0; i < stream.Length; i++)

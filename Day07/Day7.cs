@@ -4,7 +4,7 @@ namespace AdventOfCode2022
     {
         public override void Solve()
         {
-            List<string> lines = File.ReadAllLines("Day7/input.txt").ToList();
+            List<string> lines = File.ReadAllLines("Day07/input.txt").ToList();
             Folder root = new("/");
             root.Run(lines);
 
